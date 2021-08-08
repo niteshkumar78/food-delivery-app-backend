@@ -9,11 +9,10 @@ const Users = require("./models/user");
 // const Dish = require("./models/Dish");
 
 // const test = {
-//   image:
-//     "https://www.indianhealthyrecipes.com/wp-content/uploads/2012/11/gulab-jamun-recipe.jpg",
-//   name: "Gulab jamun",
-//   description: "Good quality and tasty",
-//   price: 200,
+//   image: "https://images.herzindagi.info/image/2018/Oct/biryani-delhi-main.jpg",
+//   name: "Biryani",
+//   description: "Jucy picles, Rich Spices, aromatic basmati",
+//   price: 300,
 // };
 
 // Dish.create(test, function (err, user) {});
