@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const app = express();
 // const bodyParser = require("body-parser");
@@ -38,10 +40,12 @@ app.use("/", require("./routes/index"));
 //   });
 // });
 
-app.listen(8000, (err) => {
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, (err) => {
   if (err) {
     console.log(err);
   }
 
-  console.log("app is running on port 8000");
+  console.log("app is running on port ", PORT);
 });
